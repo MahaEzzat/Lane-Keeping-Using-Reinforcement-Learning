@@ -1,4 +1,4 @@
-# Torcs - Reinforcement-Learning
+# Torcs - Lane Keeping Using Reinforcement Learning
 Discretized Q-Learning on Torcs ( Lane keeping assistant )
 
 Output:
