@@ -232,8 +232,35 @@ based on something other than the value. It could pick an action based on some h
 simply the first action that popped up.
 
 ## References
-Daniel Karavolos's [Masters research](https://pdfs.semanticscholar.org/89b2/6da4e6ac2994dccd0eba0eae9649f442a75c.pdf) Q-learning with heuristic exploration in Simulated
-Car Racing
-
-Eng. Mohamed Abdou's [Masters research](https://github.com/A-Raafat/Torcs---Reinforcement-Learning-using-Q-Learning/blob/master/MSc_RL_Thesis.pdf) 
-
+[1] A. Davies, P. Martineau, M. Molteni, A.
+Watercutter, M. Simon, E. Pao and L.
+Mallonee, "What Is a Self-Driving Car? The
+Complete WIRED Guide", WIRED.
+[Online]. Available:
+https://www.wired.com/story/guide-selfdriving-cars/. [Accessed: 18- Oct- 2018].
+[2] "Learning to drive in a day.", Wayve.
+[Online]. Available:
+https://wayve.ai/blog/learning-to-drive-in-aday-with-reinforcement-learning.
+[Accessed: 18- Oct- 2018].
+[3] D. Karavolos, Q-learning with heuristic
+exploration in Simulated Car Racing.
+Amsgerdam: University of Amsterdam,
+2013.
+[4] N. Shimkin, Learning in Complex Systems -
+Reinforcement Learning – Basic
+Algorithms. 2011.
+[5] B. Wymann and E. Espié, "torcs ›
+News", Torcs.sourceforge.net, 2016.
+[Online]. Available:
+http://torcs.sourceforge.net/. [Accessed: 15-
+Dec- 2018].
+[6] A. Raafat, "A-Raafat/Torcs---ReinforcementLearning-using-Q-Learning", GitHub, 2016.
+[Online]. Available: https://github.com/ARaafat/Torcs---Reinforcement-Learningusing-Q-Learning. [Accessed: 15- Dec2018].
+[7] "TORCS", En.wikipedia.org, 2018. [Online].
+Available:
+https://en.wikipedia.org/wiki/TORCS#Com
+petitions. [Accessed: 15- Dec- 2018].
+[8] M. Abdou Tolba, AUTONOMOUS DRIVING
+USING DEEP REINFORCEMENT
+LEARNING. Cairo: Faculty of Engineering
+at Cairo University, 2017.
