@@ -2,26 +2,33 @@
 Discretized Q-Learning on Torcs ( Lane keeping assistant )
 
 Output:
-https://www.youtube.com/watch?v=kxQeiObGM6s
+https://youtu.be/QhDOWCuL2Qw
 
 ## Introduction
-**The Open Racing Car Simulator.** TORCS is a modern, modular, highly-portable multi-player, multi-agent car simulator. Its high degree of modularity and portability render it ideal for artificial intelligence research.
- 
-TORCS can be used to develop artificially intelligent (AI) agents for a variety of problems. At the car level, new simulation modules can be developed, which include intelligent control systems for various car components. At the driver level, a low-level Application program interface (API) gives detailed (but only partial) access to the simulation state. This could be used to develop anything from mid-level control systems to complex driving agents that find optimal racing lines, react successfully in unexpected situations and make good tactical race decisions.
-Each on-going race is referred to as a simulation in TORCS and is described through many different data structures. The race situation is updated every 2 milliseconds (500 Hz), including updating the various mathematical models governing the physics of the race, e.g. motion and positioning of the cars and other objects.
+In our project, we aim at tackling one of the most crucial problems of this century;
+the problem of self-driving cars. We targeted the aspect of lane-keeping together with
+maximizing the car's speed, and we adopted a Q-learning algorithm. We tried out four different
+scenarios where we altered the hyper-parameters and the way the reward function is calculated in
+an attempt to arrive at the best possible model. In this report, we present the exact algorithm used
+and discuss our results, as well as possible future work. 
 
 
 ## SCR-Plugin
-The Open Car Racing Simulator1 is a highly customizable, open source car racing simulator that provides a sophisticated physics engine, 3D graphics, various game modes, and several diverse tracks and car models. Because of this, it has been used in the Simulated Car Racing championship since 2008
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/A-Raafat/Torcs---Reinforcement-Learning/blob/master/Pic.png">
-</p>
-
-Normally, the cars in TORCS have access to all information, including the environment and, to a certain degree, other cars. This is not representative of autonomous agents acting in the real world.
-The server acts as a proxy for the environment and the client provides the control for a single car. The controllers run as external programs and communicate with a customized version of TORCS through UDP connections.
-The server sends the client the available sensory input. In return, it receives the desired output of the actuators
-This separates the controller from the environment, allowing it to be treated as an autonomous agent
+In normal cases, cars in TORCS are granted
+full access of the environment information
+[3][6]. However, when working with
+autonomous agents, we want them to have
+access only to information they gain through
+their sensors, because this is the type of
+information they could truly acquire if they
+were in a real environment [3][6]. As a
+result, we activate the Simulated Car Racing
+plugin (SCR-plugin) which allows us to have
+a server act as a proxy for the environment
+[3][6]. Consequently, the server sends our
+client the available sensory input and, in
+turn, receives the desired output of the
+actuators from it [3][6].
 
 ###### Download links:
 
